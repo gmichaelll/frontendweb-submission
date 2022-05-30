@@ -13,7 +13,7 @@ body{
 #top{
     font-family: 'Staatliches', cursive;
     font-weight: 200;
- }
+}
 
 main{
     padding: 20px;
@@ -22,12 +22,12 @@ main{
 
 #content{
     float: left;
-    width: 75%;
+    width: 74%;
 }
 
 aside{
     float: right;
-    width: 23.5%;
+    width: 25%;
     padding-left: 20px;
 }
 
@@ -43,7 +43,7 @@ header{
     background-color: #FF0000;
     text-align: center;
     color: white;
- }
+}
 
 /* properties image */
 
@@ -64,7 +64,7 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 20px;
-    margin-top: 2px;
+    margin-top: 15px;
 }
 
 /* Navigation */
@@ -85,7 +85,7 @@ nav li{
 }
 
 nav a:hover{    
-    color: black; 
+    color: #FF0000; 
     font-weight: bold;   
 }
 
@@ -99,14 +99,22 @@ nav a{
     
 }
 
-/* konfigurasi collor heading dan paragraf */
+/* konfigurasi color heading dan paragraf */
+
 
 h1{
     color: white;
 }
 
+.jumbotron p{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
 p{
     color: black;
+    text-align: justify;
 }
 
 h2,h3{
@@ -132,24 +140,17 @@ footer{
 /* blockquote */
 
 blockquote {
-    font: 14px/20px italic Times, serif;
+    font: 16/20px italic Times, serif;
     padding: 8px;
     background-color: white;
     border-top: 1px solid #950101;
     border-bottom: 1px solid #950101;
     margin: 5px;
-    background-image: url(//demo.techglimpse.com/images/openquote1.gif);
     background-position: top left;
     background-repeat: no-repeat;
     text-indent: 1px;
-    }
-    blockquote span {
-       display: block;
-       background-image: url(//demo.techglimpse.com/images/closequote1.gif);
-       background-repeat: no-repeat;
-       background-position: bottom right;
-     }
-
+    text-align: justify;
+}
 
 /* Media Query */
 
@@ -159,6 +160,6 @@ blockquote {
         width: 100%;
         padding: 0;
     }
- }
+}
 
  
